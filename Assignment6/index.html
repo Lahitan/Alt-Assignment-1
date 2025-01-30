@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <div>
-            <a href=""><img src="../images/wppusher-logo copy.png" alt="wppusher-logo"></a>
+            <a href=""><img class="logo-img" src="../images/wppusher-logo copy.png" alt="wppusher-logo"></a>
         </div>
         <div>
             <ul>
@@ -22,96 +22,97 @@
                 <li><a href="">Learn more</a></li>
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Help</a></li>
-                <li><a href="">Account</a></li>
+                <li><a class="active" href="">Account</a></li>
             </ul>
         </div>
     </header>
 
-    <main>
+    <main class="container">
+        <div class="box">
         <div>
-        <div>
-            <h2>Checkout</h2>
-        </div>
-
-        <form>
             <div>
+                <h2>Checkout</h2>
+            </div>
+
+            <form>
+                <div>
+                    <div>
+                        <img src="../images/2 (1).png" alt="figure 2 in circle">
+                        <h3>Your Basic Information</h3>
+                    </div>
+
+                    <p>       
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="Tolu" id="first-name" required autocomplete="off">
+                    </p>
+
+                    <p>
+                        <label for="last-name">Last Name</label>
+                        <input type="text"  id="last-name" required autocomplete="off">
+                    </p>
+                </div>
+
                 <div>
                     <img src="../images/2 (1).png" alt="figure 2 in circle">
-                    <h3>Your Basic Information</h3>
+                    <h3>Your Payment Information</h3>
                 </div>
 
                 <p>       
-                    <label for="first-name">First Name</label>
-                    <input type="text" placeholder="Tolu" id="first-name" required autocomplete="off">
+                    <label for="credit-card">Credit Card</label>
+                    <input type="number" placeholder="Card Number" id="credit-card" required autocomplete="cc-number">
                 </p>
+            </div>
 
-                <p>
-                    <label for="last-name">Last Name</label>
-                    <input type="text"  id="last-name" required autocomplete="off">
-                </p>
+                <div>
+                    <p>
+                        <button class="btn" type="submit">Buy WP Pusher</button>
+                    </p>
+
+                    <p>
+                        <img src="../images/Mask.png" alt="question mark"> Need any help? Don’t hesitate to contact support!
+                    </p>
+                </div>
+
+                <div>
+                    <img src="../images/powered_by_stripe.png" alt="powered-by-stripe-logo">
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <h3>Freelancer</h3>
+            <div>
+                <p>$ <span>99</span>/ year</p>
+                <p>Automatically renews after 1 year</p>
             </div>
 
             <div>
-                <img src="../images/2 (1).png" alt="figure 2 in circle">
-                <h3>Your Payment Information</h3>
+                <p><img src="../images/Combined Shape Copy 2.png" alt="right sign">Use on 5 client sites</p>
+                <p><img src="../images/Combined Shape Copy 2.png" alt="right sign">Private repositories</p>
+                <p><img src="../images/Combined Shape Copy 2.png" alt="right sign">Email support</p>
             </div>
 
-            <p>       
-                <label for="credit-card">Credit Card</label>
-                <input type="number" placeholder="Card Number" id="credit-card" required autocomplete="cc-number">
-            </p>
-        </div>
-
-        <div>
-            <p>
-                <button class="btn" type="submit">Buy WP Pusher</button>
-             </p>
-
-             <p>
-                <img src="../images/Mask.png" alt="question mark"> Need any help? Don’t hesitate to contact support!
-             </p>
-        </div>
-
-        <div>
-            <img src="../images/powered_by_stripe.png" alt="powered-by-stripe-logo">
-        </div>
-    </form>
-    </div>
-
-    <div>
-        <h3>Freelancer</h3>
-        <div>
-            <p>$ <span>99</span>/ year</p>
-            <p>Automatically renews after 1 year</p>
-        </div>
-
-        <div>
-            <p><img src="../images/Combined Shape Copy 2.png" alt="right sign">Use on 5 client sites</p>
-            <p><img src="../images/Combined Shape Copy 2.png" alt="right sign">Private repositories</p>
-            <p><img src="../images/Combined Shape Copy 2.png" alt="right sign">Email support</p>
-        </div>
-
-        <div>
-            <p>Need 20 client sites?</p>
-            <a href="">Switch to the Agency plan.</a>
-        </div>
-        <hr>
-        <div>
-            <p>
-                FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!
-            </p>
-        </div>
-        <div>
-            <img src="../images/Bitmap.png" alt="a man">
-            <h3>Kirk Beard</h3>
+            <div>
+                <p>Need 20 client sites?</p>
+                <a href="">Switch to the Agency plan.</a>
+            </div>
+            <hr>
+            <div>
+                <p>
+                    FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!
+                </p>
+            </div>
+            <div>
+                <img src="../images/Bitmap.png" alt="a man">
+                <h3>Kirk Beard</h3>
+            </div>
         </div>
     </div>
+
+    <p>
+        © 2018 WP Pusher IVS  ·  Terms of Service
+    </p>
     </main>
 
-    <footer>
-        <p>
-            © 2018 WP Pusher IVS  ·  Terms of Service
-        </p>
-    </footer>
 </body>
 </html>
