@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Form</title>
+    <link rel="stylesheet" href="./fifth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+    <main class="box">
+
+            <div class="info-box">
+                <img src="../images/Logo.png" alt="logo">
+                <h2>For Individuals</h2>
+                <p>
+                    Start benefiting from the wellness experience. 
+                    For companies looking on increasing productivity, 
+                    and improving organization wellness.
+                </p>
+            </div>
+
+            <div class="form-box">
+                <form action="/submit" method="post">
+
+             <div class="divide">  
+             <p>       
+                <label for="first-name">First Name</label>
+                <input type="text" placeholder="Tolu" id="first-name" required autocomplete="off">
+             </p>
+
+             <p>
+                <label for="last-name">Last Name</label>
+                <input type="text"  id="last-name" required autocomplete="off">
+             </p>
+            </div> 
+
+            <div class="divide">
+            <p>
+
+                <label for="gender">Gender</label>
+                <select name="" id="gender" placeholder="Select here" required>
+                    <option value="">Select gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Others</option>
+                </select>
+            </p>
+
+             <p>
+                <label for="date">Date of Birth</label>
+                <input type="date" placeholder="Select here" id="date" required>
+             </p>
+            </div>
+
+            <div class="divide">
+            <p>
+                <label for="weight">Weight(KG)</label>
+                <input type="number" placeholder="Enter weight" id="weight" required />
+            </p>
+
+            <p>
+                <label for="height">Height(CM)</label>
+                <input type="number" placeholder="Enter height.." id="height" required />
+            </p>
+        </div>
+            <p>
+                <label for="activity">Country</label>
+                <select name="" id="activity" placeholder="Select here" required>
+                    <option value="">Select here</option>
+                    <option value="">Level 1</option>
+                    <option value="">Level 2</option>
+                    <option value="">Level 3</option>
+                    <option value="">Level 4</option>
+                    <option value="">Level 5</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter password" id="password" required>
+            </p>
+
+            <p>
+                <button class="btn" type="submit">Register</button>
+             </p>
+
+            <p class="info">By clicking Register, you agree to our <a class="link" href="https://altschoolafrica.com/terms-and-conditions" target="_blank">Terms of Use</a>
+                and our <a class="link" href="https://altschoolafrica.com/privacy-policy" target="_blank"> Privacy Policy</a>
+            </p>
+
+                </form>
+            </div>
+    </main>
+</body>
+</html>

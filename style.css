@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: "Montserrat", serif;
+}
+
+.logo-image{
+    width: 150px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.info-heading{
+    text-align: center;
+}
+
+.info-card-1{
+    max-width: 800px;
+    text-align: justify;
+    background-color:rgb(249, 232, 210);
+    color: rgb(66, 40, 7);
+    margin: 3rem auto;
+    padding: 3rem;
+}
+
+.info{
+    margin: 0.8rem 0;
+    text-align: center;
+}
+
+.info-content h3, .info-card-1 > h3{
+    margin-bottom: 0.8rem;
+}
+
+.link{
+ text-decoration: none;
+ color: rgb(66, 40, 7);
+}
+
+
+.table h3{
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid rgb(66, 40, 7);
+    padding: 1rem;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 2rem auto;
+}
+
+th{
+    background-color: rgb(249, 232, 210);
+    color: rgb(66, 40, 7);
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+}

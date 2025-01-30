@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz
+,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo-image" src="../images/altschool-logo.jpg" alt="">
+        <p>Already an AltSchooler <a class="link" href=""><strong>Sign In!</strong></a></p>
+    </header>
+
+    <main class="form-container">
+        <div class="form-heading">
+            <h2>Signup</h2>
+            <p class="info">Take the nex steps to apply at AltSchool  Africa</p>
+      </div>
+        <form action="/submit" method="post">
+
+            <label for="first-name">First Name</label>
+            <input type="text" placeholder="Enter first name" id="first-name" required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" placeholder="Enter last name" id="last-name" required>
+
+            <label for="gender">Gender</label>
+            <select name="" id="gender" placeholder="Select gender" required>
+                <option value="">Select gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Others</option>
+            </select>
+            
+            <label for="dob">Date Of Birth</label>
+            <input type="text" placeholder="DD/MM/YYYY" id="dob" required>
+
+            <label for="email">Email Address</label>
+            <input type="text" placeholder="Enter email address" id="email" required>
+
+            <label for="number">Phone Number</label>
+            <input type="number" placeholder="09086543346" id="number" required>
+
+
+            <label for="counter">Country</label>
+            <select name="" id="country" placeholder="Select your country" required>
+                <option value="">Select your country</option>
+                <option value="">Nigeria</option>
+                <option value="">Ghana</option>
+                <option value="">South Africa</option>
+                <option value="">Uganda</option>
+                <option value="">Kenya</option>
+            </select>
+            
+            <label for="state">State/City of Residence</label>
+            <input type="text" placeholder="Enter your state of residence" id="state" required>
+
+            <label for="hear-about-us">How did you hear about us?</label>
+            <select name="" id="" placeholder="Select channel" id="hear-about-us" required>
+                <option value="">Select channel</option>
+                <option value="">Linkedin</option>
+                <option value="">Twitter</option>
+                <option value="">Whatsapp group</option>
+                <option value="">Google search</option>
+                <option value="">Others</option>
+            </select>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter password" id="password" required>
+
+            
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" placeholder="Enter password again" id="confirm-password" required>
+
+            <p class="info">By clicking continue, i agree to <a class="link" href="https://altschoolafrica.com/terms-and-conditions" target="_blank"><b>Terms of Use</b></a>
+                and acknoledge that I have read the <a class="link" href="https://altschoolafrica.com/privacy-policy" target="_blank"><b>Privacy Policy</b></a>
+            </p>
+
+            <button class="btn">Submit</button>
+            
+        </form>
+        <a class="link" href="./index.html"><b>Go back home</b></a>
+ 
+        </main>
+
+
+</body>
+</html>

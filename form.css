@@ -1,0 +1,44 @@
+header p{
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.form-container{
+    max-width: 500px;
+    margin: 3rem auto;
+    color: rgb(66, 40, 7);
+    background-color: rgb(249, 232, 210);
+    padding: 3rem;
+}
+form, input, select{
+    display: block;
+}
+input, select{
+    margin: 0.5rem 0;
+    padding: 0.7rem;
+    border-radius: 6px;
+    outline-offset: 0;
+    border: 0;
+     width: 100%;
+}
+
+.form-heading > h2{
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    padding: 0.8rem;
+    display: block;
+    background-color: rgb(66, 40, 7);
+    color: rgb(249, 232, 210);
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0;
+    margin: 1rem auto;
+}
+
+.info{
+    font-size: 0.7rem;
+}

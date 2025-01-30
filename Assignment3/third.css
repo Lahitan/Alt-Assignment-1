@@ -1,0 +1,43 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: "Lato", serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 450px;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    background-color: white;
+    padding: 4rem 4rem;
+    border-radius: 10px;
+}
+
+.heading{
+    background-color: rgb(141, 7, 145);
+    padding: 1.3rem 2.2rem;
+    text-align: center;
+    margin-top: -5rem;
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+    margin-top: 1rem;
+}
