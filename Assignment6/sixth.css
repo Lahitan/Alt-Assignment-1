@@ -86,6 +86,11 @@ img{
     box-shadow: 0 1px 0.5px 0 rgba(74, 74, 74, 0.079);
 }
 
+.box-heading h2{
+    font-weight: 400;
+
+}
+
 .box-heading2{
     padding: 0.7rem;
     box-shadow: 0 1px 0.5px 0 rgba(74, 74, 74, 0.079);
@@ -182,6 +187,7 @@ label{
 
    .subscription-info p{
     margin: 0.8rem 0;
+    font-style: italic;
    }
 
    .subscription-info span{
@@ -198,11 +204,33 @@ label{
 
 
    hr{
-    margin: 1rem 0;
+    margin: 1.3rem 0;
     border: 0.6px solid #b9f4ff56;
+   }
+   .p-info{
+    font-style: italic;
    }
 
    a{
     color: white;
     text-decoration-color: #B9F5FF;
+   }
+
+   .box2{
+    display: flex;
+    margin-top: 1rem;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: start;
+   }
+
+   .footer{
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 0.8rem;
+   }
+
+   .link2{
+    text-decoration: none;
+    color: #1179BF;
    }
