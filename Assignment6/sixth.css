@@ -31,7 +31,7 @@ ul li{
     font-weight: 700;
 }
 
-a{
+.link{
     text-decoration: none;
     color: #1D2C3C;
 }
@@ -55,6 +55,8 @@ img{
 .box{
     max-width: 892px;
     background-color: white;
+    display: flex;
+    
 }
 
 .container{
@@ -65,3 +67,142 @@ img{
     width: 50%;
     height: 50%;
 }
+
+.box1{
+    background-color: #1179BF;
+    color: white;
+    width: 332px;
+}
+
+.box1-info{
+    width:220px;
+    margin: 2rem auto;
+    font-size: 0.8rem;
+    padding: 2rem;
+}
+
+.box-heading{
+    padding: 1.5rem;
+    box-shadow: 0 1px 0.5px 0 rgba(74, 74, 74, 0.079);
+}
+
+.box-heading2{
+    padding: 0.7rem;
+    box-shadow: 0 1px 0.5px 0 rgba(74, 74, 74, 0.079);
+}
+
+.form{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.num-img{
+    width: 20px;
+    height: 20px;
+}
+
+.data1-heading{
+    display: flex;
+    column-gap: 6px;
+    margin: 1rem 0;
+}
+
+.data1-heading h3{
+    font-size: 1rem;
+}
+
+form{
+    display: block;  
+}
+
+input, select{
+    margin: 0.4rem 0;
+    padding: 0.2rem;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgba(189, 188, 188, 0.582);
+    background-color: #EDEFF2;
+
+}
+
+label{
+    display: block;
+}
+
+.divide{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+#email{
+    width: 70%;
+}
+
+#credit-card{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding: 0.6rem;
+    background-color: #038E7D;
+    outline: none;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1.5rem;
+   }
+
+   .box-heading3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+   .box-heading3 p{
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+   }
+
+   .num-img1{
+    width: 12px;
+    height: 12px;
+   }
+
+   .sponsor-img{
+    margin-top: 1rem;
+   }
+
+   .box1-info h3{
+    margin-bottom: 1rem;
+   }
+
+   .subscription-info p{
+    margin: 0.8rem 0;
+   }
+
+   .subscription-info span{
+    font-size: 2rem;
+   }
+
+   .list-info p{
+    margin: 1rem 0;
+   }
+
+   .link-info p{
+    margin: 0.8rem 0;
+   }
+
+
+   hr{
+    margin: 1rem 0;
+    border: 0.6px solid #b9f4ff56;
+   }
+
+   a{
+    color: white;
+    text-decoration-color: #B9F5FF;
+   }
